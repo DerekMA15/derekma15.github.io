@@ -238,3 +238,9 @@ jekyll-archives:
   permalinks:
     tag: /tags/:name/
     category: /categories/:name/
+
+favicon:
+  mstile_150x150: "/assets/img/favicons/icons8-difusão-seletiva-48.png"
+  apple_touch_icon: "/assets/img/favicons/icons8-difusão-seletiva-48.png"
+  favicon_32x32: "/assets/img/favicons/icons8-difusão-seletiva-48.png"
+  favicon_16x16: "/assets/img/favicons/icons8-difusão-seletiva-48.png"
