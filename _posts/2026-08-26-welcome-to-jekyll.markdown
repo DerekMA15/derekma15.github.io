@@ -2,7 +2,12 @@
 layout: post
 title:  "Welcome to Jekyll!"
 date:   2026-08-26 23:39:13 -0300
-categories: jekyll update
+categories: [Homelab, Redes]
+tags: [openwrt, vlan, tcpdump, wireshark]
+subtitle: "Análise prática de segmentação de rede de camada 2 usando um roteador antigo com OpenWrt e captura de pacotes via tcpdump."
+# Desativa o subtítulo dentro da página do post:
+# description_hidden: true
+# description: 
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 

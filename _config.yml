@@ -181,6 +181,9 @@ collections:
   tabs:
     output: true
     sort_by: order
+  wiki:
+    output: true
+    permalink: /wiki/:name/
 
 defaults:
   - scope:

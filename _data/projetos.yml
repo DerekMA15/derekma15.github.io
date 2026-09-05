@@ -1,0 +1,21 @@
+- title: "Lab OpenWrt em Hardware Legado"
+  status: "Completo"
+  status_color: "primary" # waring = usa a cor padrão do tema
+  description: "Reaproveitamento de roteador antigo como switch gerenciável para análise de tráfego e isolamento por VLANs."
+  tags:
+    - openwrt
+    - vlan
+    - tcpdump
+  github_url: "https://github.com/derekma15"
+  writeup_url: "/posts/hello-world-blog"
+
+- title: "Analisador de Tráfego Wi-Fi"
+  status: "Planejado"
+  status_color: "secondary"
+  description: "Ferramenta em Python/Scapy para detecção de quadros de desautenticação e pontos de acesso maliciosos."
+  tags:
+    - python
+    - scapy
+    - wireless
+  github_url: "https://github.com/derekma15"
+  writeup_url: ""
