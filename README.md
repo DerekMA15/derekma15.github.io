@@ -1,6 +1,12 @@
 # Resumo
-irei detalhar mais depois rs.
-## Estrutura 
+Aba Projetos (_tabs/projetos.md): É o seu índice fixo/vitrine (ex: "Projeto 1: Lab OpenWrt | Status: Em andamento").
+
+Posts (_posts/): São os capítulos daquele projeto (ex: "Parte 1: Flashing do Firmware", "Parte 2: Analisando pacotes no Wireshark").
+
+Aba Wiki (_tabs/wiki.md): É o seu bloco de notas fixo de comandos rápidos para consulta do dia a dia.
+
+mais detalhado: [Link do Doc detalhando mais sobre o projeto](https://docs.google.com/document/d/19yGL-0tYpAlLQsff8zM3Sukjq-F4A2AvOkppqhi8k0Y/edit?usp=sharing
+## Estrutura )
 ```
 meu-blog-jekyll/
 ├── _config.yml          # Configurações globais (título, autor, plugins)
