@@ -1,0 +1,53 @@
+<!-- _includes/head.html - Sobrescreve parcialmente o head do Chirpy -->
+
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+{% capture title %} {% if page.title %} {{ page.title | append: " | " | append:
+site.title }} {% else %} {{ site.title }} {% endif %} {% endcapture %}
+
+<title>{{ title }}</title>
+
+{% seo title=false %}
+
+<!-- CUSTOM FAVICONS - FORÇADO -->
+<link
+  rel="icon"
+  type="image/png"
+  sizes="16x16"
+  href="/assets/img/favicons/favicon-16x16.png"
+/>
+<link
+  rel="icon"
+  type="image/png"
+  sizes="32x32"
+  href="/assets/img/favicons/favicon-32x32.png"
+/>
+<link
+  rel="icon"
+  type="image/png"
+  sizes="96x96"
+  href="/assets/img/favicons/favicon-96x96.png"
+/>
+<link
+  rel="apple-touch-icon"
+  sizes="180x180"
+  href="/assets/img/favicons/apple-touch-icon.png"
+/>
+<link rel="manifest" href="/assets/img/favicons/site.webmanifest" />
+<meta name="theme-color" content="#ffffff" />
+
+<!-- Estilos do Chirpy -->
+<link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}" />
+
+<!-- Google Analytics (se habilitado) -->
+{% if site.google_analytics %} {% include google-analytics.html %} {% endif %}
+
+<!-- MathJax (se habilitado) -->
+{% if page.mathjax %} {% include mathjax.html %} {% endif %}
+
+<!-- KaTeX (se habilitado) -->
+{% if page.katex %} {% include katex.html %} {% endif %}
+
+<!-- Hooks (PRECISA EXISTIR) -->
+{% include hooks/head.html %}

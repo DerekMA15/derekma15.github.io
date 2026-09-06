@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="1000"><metadata><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/"><rdf:Description><dc:creator>RealFaviconGenerator</dc:creator><dc:source>https://realfavicongenerator.net</dc:source></rdf:Description></rdf:RDF></metadata><style>
+    #light-icon {
+      display: inline;
+    }
+    #dark-icon {
+      display: none;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      #light-icon {
+        display: none;
+      }
+      #dark-icon {
+        display: inline;
+      }
+    }
+  </style><g id="light-icon"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="1000"><g><g transform="matrix(20.833333333333332,0,0,20.833333333333332,0,0)"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="48" height="48" viewBox="0 0 48 48"><image width="48" height="48" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAABM0lEQVR4nO2ZQWrDQAxF36LMhUI3ae+VI3SyDb1CaZalOVI6ziUCUwxeGDepLSJbMuiBdgP//2DG3woEQeCBBOyBBqiDKUDuzrgl3zA+nPaMW5oJAS6WBl+BY/c4XCeYrXdmcZ6A9wcMV+sAmuarxWPTF/8CNnduk+oxwLEn/D1ytkww/7OQ75um2l/+0Wv0jYXp3zZjL6HUhSieXmSmt4cGEcCaCGBdbSUBkmad1qq2kgBZSVO12koCNEqaf4T/m93ISAJUzS5UZ5gIwAwB8siYBShK1VYiXJQ0VautJEBW0lSttpIAKer0DEQAayKANdKP+r237bT2WiWzMJ898dMat9MvAwPtdu55TavFloPAXPW6XtcMYcYW+ADOa/uDYyrF43ZaQva4nZaQPNbpIGAF/AIe8Q1nfp9FswAAAABJRU5ErkJggg=="></image></svg></g></g></svg></g><g id="dark-icon"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="1000"><g><g transform="matrix(20.833333333333332,0,0,20.833333333333332,0,0)"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="48" height="48" viewBox="0 0 48 48"><image width="48" height="48" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAABNUlEQVR4nO2ZUWrCQBCG96HkQtKX1nt5hK6v0isUfRQ9ko1eQvhKSIVglN0JY2YX5oN9C8z/JctmMgnBcRxzgAZYA2fGtEDsrgmlQh8wRQylwuM7f8/FMuAS2P1vhysTCQbB34DvqYFLEFAL32GxbYbsgcWj04RCBbo9f+OQuLbNyP87X/pxqIXCMfo1X/o+1PC0aTJeZPHJk7B5kZntXS1cwBoXsG5tJQJottNara1QIGrUVG1thQJnjZqjwglWiSURyEJbIBsXeJFATCwzgVajtRUKtBo1VVtboUDUqKna2goFGm+ntXEBa1zAmgkf9euiptMvGKvE+dL3obaD4sfqptPA512AA/BezWixA9jkhsshGI3XN9UK3AA+gB/gVNUPjlwocTotgRKn0xIosZ12nFAHf2+35OPFll2zAAAAAElFTkSuQmCC"></image></svg></g></g></svg></g></svg>
