@@ -148,17 +148,7 @@ assets:
     # only works if `assets.self_host.enabled` is 'true'
     env: # [development | production]
 
-pwa:
-  enabled: true # The option for PWA feature (installable)
-  cache:
-    enabled: true # The option for PWA offline cache
-    # Paths defined here will be excluded from the PWA cache.
-    # Usually its value is the `baseurl` of another website that
-    # shares the same domain name as the current website.
-    deny_paths:
-      # - "/example"  # URLs match `<SITE_URL>/example/*` will not be cached by the PWA
-
-paginate: 10
+#paginate: 10
 
 # The base URL of your site
 baseurl: ""
@@ -239,8 +229,38 @@ jekyll-archives:
     tag: /tags/:name/
     category: /categories/:name/
 
+pwa:
+  enabled: false # Desativa completamente o PWA
+  cache:
+    enabled: false
+  manifest:
+    enabled: false
+
+# Favicon personalizado (agora manual)
 favicon:
-  mstile_150x150: "/assets/img/favicons/icons8-difusão-seletiva-48.png"
-  apple_touch_icon: "/assets/img/favicons/icons8-difusão-seletiva-48.png"
-  favicon_32x32: "/assets/img/favicons/icons8-difusão-seletiva-48.png"
-  favicon_16x16: "/assets/img/favicons/icons8-difusão-seletiva-48.png"
+  ico: "/assets/img/favicons/favicon.ico"
+  png: "/assets/img/favicons/favicon-96x96.png"
+  apple_touch: "/assets/img/favicons/apple-touch-icon.png"
+  manifest: "/assets/img/favicons/site.webmanifest"
+
+
+# Impedir que o Jekyll processe/remova a pasta de favicons
+include:
+  - assets/favicons
+
+# Manter arquivos estáticos (evita que sejam processados)
+keep_files:
+  - assets/favicons
+
+# Arquivos a serem excluídos do build (mantém os favicons)
+exclude:
+  - .sass-cache
+  - .jekyll-cache
+  - gemfiles
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/

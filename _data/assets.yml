@@ -1,0 +1,9 @@
+# _data/assets.yml
+# Desativa a geração automática de favicons do Chirpy
+
+pwa:
+  enabled: false
+
+favicons:
+  auto_generate: false
+  source: "" # Remove a fonte padrão
