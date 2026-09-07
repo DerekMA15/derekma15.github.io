@@ -1,3 +1,39 @@
+- title: "Predição de Qualidade do Ar com ML"
+  status: "Completo"
+  status_color: "primary"
+  description: "Modelo de Machine Learning para análise e previsão dos índices de qualidade do ar com base em dados meteorológicos e poluentes."
+  image: "https://raw.githubusercontent.com/DerekMA15/predicao-qualidade-ar-ml/main/preview.png"
+  github_url: "https://github.com/DerekMA15/predicao-qualidade-ar-ml"
+  writeup_url: ""
+
+  tags:
+    - Machine Learning
+    - Python
+    - Data Science
+
+- title: "Clinic Priority Queue"
+  status: "Completo"
+  status_color: "primary"
+  description: "Sistema de gerenciamento e ordenação de filas de prioridade para atendimento clínico e triagem de pacientes."
+  image: "https://raw.githubusercontent.com/DerekMA15/clinic-priority-queue/main/preview.png"
+  github_url: "https://github.com/DerekMA15/clinic-priority-queue"
+  writeup_url: ""
+
+  tags:
+    - Algoritmos
+    - Estrutura de Dados
+    - Java
+
+- title: "Glicemilton (Expo Go)"
+  status: "Completo"
+  status_color: "primary"
+  description: "Aplicativo móvel desenvolvido em React Native / Expo para auxiliar e educar sobre monitoramento glicêmico e auxílio no controle da saúde."
+  github_url: "https://github.com/ProHub-Innovation/glicemilton-expo-go"
+  writeup_url: ""
+  tags:
+    - React Native
+    - Expo
+    - Mobile
 - title: "Lab OpenWrt em Hardware Legado"
   status: "Completo"
   status_color: "primary" # waring = usa a cor padrão do tema
@@ -7,7 +43,7 @@
     - vlan
     - tcpdump
   github_url: "https://github.com/derekma15"
-  writeup_url: "/posts/hello-world-blog"
+  writeup_url: ""
 
 - title: "Analisador de Tráfego Wi-Fi"
   status: "Planejado"
