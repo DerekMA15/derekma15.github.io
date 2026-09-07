@@ -1,7 +1,7 @@
 ---
 layout: page
 icon: fas fa-brain
-title: Wiki
+title: Cheatsheets
 order: 4
 permalink: /wiki/
 ---
