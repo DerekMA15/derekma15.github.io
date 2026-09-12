@@ -1,13 +1,14 @@
 # .pages.yml
 # Configuração do Pages CMS para o tema Chirpy (Jekyll)
 
-# Onde as imagens enviadas serão armazenadas
 media:
   input: assets/img
   output: /assets/img
 
 content:
-  # Coleção de Posts (blog, write-ups)
+  # ---------------------------------------------------------
+  # POSTS (blog, write-ups)
+  # ---------------------------------------------------------
   - name: posts
     label: Posts
     type: collection
@@ -34,12 +35,12 @@ content:
         label: Categorias
         type: string
         list: true
-        description: "Use uma por linha (ex: posts, redes, segurança)"
+        description: "Uma por linha (ex: posts, redes, segurança)"
       - name: tags
         label: Tags
         type: string
         list: true
-        description: "Use uma por linha (ex: openwrt, vlan)"
+        description: "Uma por linha (ex: openwrt, vlan)"
       - name: description
         label: Descrição
         type: text
@@ -52,7 +53,9 @@ content:
         type: rich-text
         required: true
 
-  # Coleção de Páginas (Sobre, Contato, etc.)
+  # ---------------------------------------------------------
+  # PÁGINAS (Sobre, Contato, etc.)
+  # ---------------------------------------------------------
   - name: pages
     label: Páginas
     type: collection
@@ -81,14 +84,80 @@ content:
         type: rich-text
         required: true
 
-# Configurações globais
+  # ---------------------------------------------------------
+  # WIKI (pasta plana _wiki/)
+  # ---------------------------------------------------------
+  - name: wiki
+    label: Wiki
+    type: collection
+    path: _wiki
+    format: yaml-frontmatter
+    filename: "{title}.md"
+    view:
+      fields: [title, category]
+      primary: title
+      sort: [title]
+    fields:
+      - name: title
+        label: Título
+        type: string
+        required: true
+      - name: category
+        label: Categoria
+        type: string
+        description: "Ex: Redes, Comandos, Ferramentas"
+      - name: tags
+        label: Tags
+        type: string
+        list: true
+      - name: body
+        label: Conteúdo
+        type: rich-text
+        required: true
+
+  # ---------------------------------------------------------
+  # PROJETOS (arquivo único _data/projetos.yml com array)
+  # ---------------------------------------------------------
+  - name: projetos
+    label: Projetos
+    type: file
+    path: _data/projetos.yml
+    list: true
+    view:
+      fields: [title, status]
+      primary: title
+    fields:
+      - name: title
+        label: Título
+        type: string
+        required: true
+      - name: description
+        label: Descrição
+        type: text
+      - name: url
+        label: URL (write-up)
+        type: string
+        description: "Link para o post detalhado"
+      - name: github
+        label: GitHub
+        type: string
+        description: "Link do repositório"
+      - name: image
+        label: Imagem
+        type: image
+        description: "Imagem de capa do projeto"
+      - name: status
+        label: Status
+        type: select
+        options:
+          - em desenvolvimento
+          - concluído
+          - arquivado
+      - name: tags
+        label: Tags
+        type: string
+        list: true
+
 settings:
   commit:
     template: "content: atualiza {path} via Pages CMS"
-    # Isso personaliza a mensagem de commit feita pelo CMS
-
-# Botão de ação para disparar o deploy manualmente (opcional)
-actions:
-  - name: deploy
-    label: "Disparar Deploy"
-    workflow: pages-deploy.yml
