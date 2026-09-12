@@ -1,6 +1,5 @@
 ---
-layout: page
-icon: fas fa-newspaper
+layout: post
 title: Uso de Mecânismos Criptograficos em Serviços de encurtamento de URL - Uma Revisão Sistemática
 date:   2026-09-04 23:39:13 -0300
 categories: [posts, segurança, redes]
