@@ -13,7 +13,6 @@ description: Como saí de um fluxo puramente Git para uma interface visual de
   edição, sem perder o controle sobre o repositório.
 toc: false
 ---
-```
 ## O que eu considerei
 
 | Opção | Por que não escolhi |
@@ -70,5 +69,4 @@ Se você também mantém um site Jekyll no GitHub Pages e sente o atrito de edit
 - [Pages CMS — site oficial](https://pagescms.org)
 - [Documentação do Pages CMS](https://pagescms.org/docs)
 - [Repositório no GitHub](https://github.com/pages-cms/pages-cms)
-```
 
