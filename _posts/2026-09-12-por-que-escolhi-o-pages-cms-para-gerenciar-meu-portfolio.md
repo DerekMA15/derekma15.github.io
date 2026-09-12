@@ -12,17 +12,19 @@ tags:
   - workflow
 description: Como saí de um fluxo puramente Git para uma interface visual de
   edição, sem perder o controle sobre o repositório.
-toc: true
+toc: false
 ---
 ## O que eu considerei
 
+
 | Opção | Por que não escolhi |
-|-------|---------------------|
+| ------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Jekyll Admin** | É plugin oficial e integra perfeitamente com Jekyll, mas só roda localmente. Não funciona no GitHub Pages porque exige um servidor Ruby por trás. |
 | **Decap CMS** (ex-Netlify CMS) | Também é gratuito e baseado em Git, mas o ritmo de manutenção desacelerou. Preferi algo com desenvolvimento mais ativo. |
 | **TinaCMS** | Poderoso, mas é um produto comercial com cobrança por usuário. Não se encaixa no meu requisito de custo zero. |
 | **Spinal CMS** | Também é comercial e focado em colaboração de equipe. Exagero para um projeto pessoal. |
 | **Escrever tudo manualmente no Git** | É o que eu fazia. Funciona, mas o atrito é alto para edições rápidas. |
+
 
 ## Por que o Pages CMS
 
@@ -60,7 +62,7 @@ Cada campo do front matter é mapeado explicitamente, então o CMS sabe exatamen
 
 O Pages CMS não substitui o Git — ele o complementa. Para quem quer a conveniência de um CMS visual sem abrir mão do controle sobre os arquivos, é uma escolha difícil de bater.
 
-Se você também mantém um site Jekyll no GitHub Pages e sente o atrito de editar tudo pelo terminal, vale a pena testar.
+Se você também mantém um site Jekyll no GitHub Pages e sente o atrito de editar tudo pelo terminal e todo o esquema de precisar ajustar diretamente na pasta do arquivo. O Pages CMS proporciona uma vantagem de poder escrever em qualquer local, salvar e continuar modificando depois, vale a pena testar.
 
 ---
 
