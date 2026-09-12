@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Por que escolhi o Pages CMS para gerenciar meu portfólio
 date: 2026-09-12
 categories:
@@ -13,7 +14,6 @@ description: Como saí de um fluxo puramente Git para uma interface visual de
   edição, sem perder o controle sobre o repositório.
 toc: true
 ---
-```
 ## O que eu considerei
 
 | Opção | Por que não escolhi |
@@ -38,7 +38,6 @@ A curva de aprendizado foi mínima: criar um arquivo `.pages.yml` na raiz do rep
 O coração da integração é o arquivo `.pages.yml`, que fica na raiz do repositório. Ele descreve:
 
 - **Posts** (`_posts/`) com campos como título, data, categorias, tags e corpo em Markdown.
-- **Páginas** (`_pages/`) para páginas estáticas como Sobre e Contato.
 - **Wiki** (`_wiki/`) para minhas anotações rápidas.
 - **Projetos** (`_data/projetos.yml`) como uma lista editável de itens.
 
@@ -70,5 +69,4 @@ Se você também mantém um site Jekyll no GitHub Pages e sente o atrito de edit
 - [Pages CMS — site oficial](https://pagescms.org)
 - [Documentação do Pages CMS](https://pagescms.org/docs)
 - [Repositório no GitHub](https://github.com/pages-cms/pages-cms)
-```
 

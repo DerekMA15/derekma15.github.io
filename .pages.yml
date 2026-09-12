@@ -44,41 +44,11 @@ content:
       - name: description
         label: Descrição
         type: text
+        hidden: true
       - name: toc
         label: Índice (TOC)
         type: boolean
         default: true
-      - name: body
-        label: Corpo
-        type: rich-text
-        required: true
-
-  # ---------------------------------------------------------
-  # PÁGINAS (Sobre, Contato, etc.)
-  # ---------------------------------------------------------
-  - name: pages
-    label: Páginas
-    type: collection
-    path: _pages
-    format: yaml-frontmatter
-    filename: "{title}.md"
-    view:
-      fields: [title, permalink]
-      primary: title
-    fields:
-      - name: title
-        label: Título
-        type: string
-        required: true
-      - name: permalink
-        label: Permalink
-        type: string
-        required: true
-        description: "URL da página (ex: /about/)"
-      - name: layout
-        label: Layout
-        type: string
-        default: page
       - name: body
         label: Corpo
         type: rich-text
