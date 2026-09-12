@@ -11,7 +11,7 @@ tags:
   - workflow
 description: Como saí de um fluxo puramente Git para uma interface visual de
   edição, sem perder o controle sobre o repositório.
-toc: true
+toc: false
 ---
 ```
 ## O que eu considerei
