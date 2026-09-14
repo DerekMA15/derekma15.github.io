@@ -117,19 +117,6 @@ content:
         label: Status
         type: string
         description: "Ex: em desenvolvimento, concluído, arquivado"
-      - name: color
-        label: Cor do Status
-        type: select
-        options:
-          - value: success
-            label: Verde (concluído)
-          - value: warning
-            label: Amarelo (em andamento)
-          - value: danger
-            label: Vermelho (arquivado/erro)
-          - value: secondary
-            label: Cinza (neutro)
-        default: secondary
       - name: tags
         label: Tags
         type: string
