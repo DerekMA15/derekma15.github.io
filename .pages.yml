@@ -116,7 +116,7 @@ content:
       - name: status
         label: Status
         type: string
-        description: "Ex: em desenvolvimento, concluído, arquivado"
+        description: "Ex: Concluído, Em Desenvolvimento, Planejado"
       - name: tags
         label: Tags
         type: string

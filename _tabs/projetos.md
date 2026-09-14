@@ -37,12 +37,12 @@ Vitrine de projetos desenvolvidos para disciplinas da faculdade, testes de segur
       {% endfor %}
 
       <div class="ms-auto d-flex gap-2">
-        {% if proj.github_url != "" %}
+        {% if proj.github_url and proj.github_url != "" %}
           <a href="{{ proj.github_url }}" target="_blank" class="post-tag" style="border: 1px solid var(--btn-border-color, #343a40) !important; border-radius: 12px !important; padding: 3px 10px !important; text-decoration: none !important; font-size: 0.8rem;">
             <i class="fab fa-github me-1"></i> Code
           </a>
         {% endif %}
-        {% if proj.writeup_url != "" %}
+        {% if proj.writeup_url and proj.writeup_url != "" %}
           <a href="{{ proj.writeup_url | relative_url }}" class="post-tag" style="border: 1px solid var(--btn-border-color, #343a40) !important; border-radius: 12px !important; padding: 3px 10px !important; text-decoration: none !important; font-size: 0.8rem; color: var(--heading-color) !important;">
             <i class="fas fa-file-alt me-1"></i> Write-up
           </a>
