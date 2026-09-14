@@ -41,12 +41,14 @@ content:
         type: string
         list: true
         description: "Uma por linha (ex: openwrt, vlan)"
-      - name: description
-        label: Descrição
-        type: text
-        hidden: true
+        description: "Uma por linha (ex: openwrt, vlan)"
       - name: subtitle
         label: Subtítulo
+        type: text
+        description: "Aparece abaixo do título na listagem"
+        #hidden: true
+      - name: description
+        label: Descrição
         type: text
         hidden: true
       - name: toc
