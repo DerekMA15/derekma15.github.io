@@ -104,15 +104,12 @@ content:
       - name: description
         label: Descrição
         type: text
-      - name: url
-        label: URL (write-up)
-        type: string
-      - name: github
+      - name: github_url
         label: GitHub
         type: string
-      - name: image
-        label: Imagem
-        type: image
+      - name: writeup_url
+        label: URL (write-up)
+        type: string
       - name: status
         label: Status
         type: string
