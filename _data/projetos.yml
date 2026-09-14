@@ -27,7 +27,7 @@
 - title: Lab OpenWrt em Hardware Legado
   description: Reaproveitamento de roteador antigo como switch gerenciável para
     análise de tráfego e isolamento por VLANs.
-  status: em desenvolvimento
+  status: Em Desenvolvimento
   tags:
     - openwrt
     - vlan
