@@ -1,7 +1,7 @@
 - title: Predição de Qualidade do Ar com ML
   description: Modelo de Machine Learning para análise e previsão dos índices de
     qualidade do ar com base em dados meteorológicos e poluentes.
-  github: https://github.com/DerekMA15/predicao-qualidade-ar-ml
+  github_url: https://github.com/DerekMA15/predicao-qualidade-ar-ml
   status: Completo
   tags:
     - Machine Learning
@@ -10,8 +10,6 @@
 - title: Clinic Priority Queue
   description: Algoritmo de gerenciamento e ordenação de filas de prioridade para
     atendimento clínico e triagem de pacientes.
-  github: https://github.com/DerekMA15/clinic-priority-queue
-  image: https://raw.githubusercontent.com/DerekMA15/clinic-priority-queue/main/preview.png
   status: Completo
   tags:
     - Algoritmos
@@ -20,7 +18,6 @@
 - title: Glicemilton (Expo Go)
   description: Aplicativo móvel desenvolvido em React Native / Expo para auxiliar
     e educar sobre monitoramento glicêmico e auxílio no controle da saúde.
-  github: https://github.com/ProHub-Innovation/glicemilton-expo-go
   status: Completo
   tags:
     - React Native
