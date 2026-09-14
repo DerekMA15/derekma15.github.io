@@ -112,17 +112,14 @@ content:
         label: GitHub
         type: string
         description: "Link do repositório"
-      - name: image
-        label: Imagem
-        type: image
         description: "Imagem de capa do projeto"
       - name: status
         label: Status
         type: select
         options:
-          - em desenvolvimento
-          - concluído
-          - arquivado
+          - Em Desenvolvimento
+          - Completo
+          - Planejado
       - name: tags
         label: Tags
         type: string
