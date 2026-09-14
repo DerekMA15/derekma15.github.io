@@ -94,7 +94,7 @@ content:
     path: _data/projetos.yml
     list: true
     view:
-      fields: [title, status]
+      fields: [title, status, color]
       primary: title
     fields:
       - name: title
@@ -107,19 +107,29 @@ content:
       - name: url
         label: URL (write-up)
         type: string
-        description: "Link para o post detalhado"
       - name: github
         label: GitHub
         type: string
-        description: "Link do repositório"
-        description: "Imagem de capa do projeto"
+      - name: image
+        label: Imagem
+        type: image
       - name: status
         label: Status
+        type: string
+        description: "Ex: em desenvolvimento, concluído, arquivado"
+      - name: color
+        label: Cor do Status
         type: select
         options:
-          - Em Desenvolvimento
-          - Completo
-          - Planejado
+          - value: success
+            label: Verde (concluído)
+          - value: warning
+            label: Amarelo (em andamento)
+          - value: danger
+            label: Vermelho (arquivado/erro)
+          - value: secondary
+            label: Cinza (neutro)
+        default: secondary
       - name: tags
         label: Tags
         type: string
