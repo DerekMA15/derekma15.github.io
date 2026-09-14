@@ -45,6 +45,10 @@ content:
         label: Descrição
         type: text
         hidden: true
+      - name: subtitle
+        label: Subtítulo
+        type: text
+        hidden: true
       - name: toc
         label: Índice (TOC)
         type: boolean

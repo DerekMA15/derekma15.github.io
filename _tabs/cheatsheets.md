@@ -26,7 +26,7 @@ Anotações técnicas agrupadas por área. Selecione uma tecnologia para visuali
         <div class="card h-100" style="background: rgba(255, 255, 255, 0.02); border: 1px solid var(--main-border-color); border-radius: 8px; padding: 16px;">
           <h3 style="margin-top: 0; margin-bottom: 6px; font-size: 1.1rem; border: none;">
             <a href="{{ note.url | relative_url }}" style="text-decoration: none !important; color: var(--heading-color);">
-              📄 {{ note.title }}
+             {{ note.title }}
             </a>
           </h3>
           <p style="font-size: 0.85rem; color: var(--text-muted-color); margin-bottom: 12px; line-height: 1.4;">
