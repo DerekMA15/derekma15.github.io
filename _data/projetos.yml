@@ -10,6 +10,7 @@
 - title: Clinic Priority Queue
   description: Algoritmo de gerenciamento e ordenação de filas de prioridade para
     atendimento clínico e triagem de pacientes.
+  github_url: https://github.com/DerekMA15/clinic-priority-queue
   status: Completo
   tags:
     - Algoritmos
@@ -18,6 +19,7 @@
 - title: Glicemilton (Expo Go)
   description: Aplicativo móvel desenvolvido em React Native / Expo para auxiliar
     e educar sobre monitoramento glicêmico e auxílio no controle da saúde.
+  github_url: https://github.com/ProHub-Innovation/glicemilton-expo-go
   status: Completo
   tags:
     - React Native
