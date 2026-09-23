@@ -11,5 +11,5 @@ tags:
   - Pi-Hole
 toc: true
 ---
-Ainda estou no processo
+Ainda estou no processo! Mas vou deixar links que estou usando como referência e afins.
 
