@@ -20,6 +20,10 @@ meu-blog-jekyll/
 └── index.md             # Página inicial (sua bio e links)
 ```
 
+## FeedBack de Melhorias
+- o nome do projeto ser o link para o projeto envez da pequena bolha (code)
+- add outros aqui..
+
 ## Estuturas Adotadas
 
 ### 1. Estrutura Híbrida: Portfólio Landing Page + Blog
